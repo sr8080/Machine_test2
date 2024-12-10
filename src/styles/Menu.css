@@ -1,0 +1,122 @@
+body {
+  background-color: #1d1d1d;
+  font-family: 'Arial', sans-serif;
+}
+
+.menu-container {
+  color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  background: url('https://www.shutterstock.com/image-photo/colorful-various-herbs-spices-cooking-260nw-1929258281.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.menu-header {
+  font-size: 3rem;
+  color: #f5d76e;
+  margin-bottom: 30px;
+}
+
+.category-tabs {
+  background-color: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  /* background-image: url('../bacimg.jpg'), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));  */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+
+.category-tabs button {
+  background-color: #000000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px; 
+  font-weight: 600; 
+  line-height: 23.71px; 
+  letter-spacing: 0.03em; 
+
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  margin: 15px 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+
+
+.category-tabs button {
+  background-color: 1d1d1d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+.category-tabs button.active {
+  background-color: #0796EF;
+  color: #1d1d1d;
+}
+
+
+.menu-category {
+  margin: 30px auto;
+  max-width: 1000px;
+  border-top: 1px solid #f5d76e;
+  padding-top: 20px;
+}
+
+.menu-category h2 {
+  font-size: 2rem;
+  color: #f5d76e;
+  margin-bottom: 15px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 15px;
+  border-bottom: 1px solid #555;
+}
+.dots {
+  flex-grow: 1; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  margin: 0 10px; 
+}
+
+.dot {
+  width: 2px; 
+  height: 3px; 
+  border-radius: 50%; 
+  background-color: white; 
+}
+.menudiv{
+  background-image: url(../bacimg.jpg);
+}
+
+.menu-item span {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .menu-container {
+    padding: 20px;
+  }
+
+  .menu-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-item span {
+    margin: 10px 0;
+  }
+}

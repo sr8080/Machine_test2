@@ -1,0 +1,115 @@
+
+  .menu-container {
+    background-image: 
+    linear-gradient(90deg, rgba(0, 0, 0, 0.71) 0%, rgba(0, 0, 0, 0.5) 100%), 
+    url('https://img.freepik.com/free-photo/vintage-old-rustic-cutlery-dark_1220-4886.jpg?t=st=1733809263~exp=1733812863~hmac=803c90f6d71c2d0071222037a0c54b1b11e54723f55d4cc2bcb78637428bcd01&w=996');
+  background-size: cover; 
+  background-position: top;
+  background-color: #1e1e1e; 
+  padding: 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  }
+  .menu-container h5 {
+    
+    
+      font-family: 'Kelly Slab', cursive; 
+      font-size: 12px; 
+      font-weight: 400; 
+      line-height: 21.82px; 
+      text-align: center; 
+      text-underline-position: from-font; 
+      text-decoration-skip-ink: none; 
+      text-decoration: underline; 
+      color: #989494; 
+      width: 40%; 
+      margin: 0 auto; 
+    
+    
+    
+    
+  }
+  
+  
+  
+  .header {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .drink-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    padding: 5px 0;
+  }
+  
+  .drink-name {
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .drink-price {
+    font-weight: bold;
+  }
+  
+  .drink-description {
+    font-size: 0.9rem;
+    margin-top: -10px;
+    color: #d3d3d3;
+  }
+ 
+
+.drink-container {
+ 
+  width: "100%";
+
+}
+
+
+@media (max-width: 768px) { 
+  .drink-container {
+      flex-direction: column; 
+  }
+}
+
+
+
+
+.decoration-image {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+}
+
+.left {
+  top: -10px;
+  left: -10px;
+}
+
+.right {
+  top: -10px;
+  right: -10px;
+}
+
+
+@media (max-width: 899px) {
+  .decoration-image {
+      display: none; 
+  }
+}
+.mob-image {
+  display: none; 
+}
+
+
+@media (max-width: 899px) {
+  .mob-image {
+      display: block; 
+  }
+}
+
